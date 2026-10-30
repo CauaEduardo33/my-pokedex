@@ -1,6 +1,7 @@
 import { Dimensions, StyleSheet } from 'react-native';
 import type { Theme } from '../../global/themes';
 
+
 export const createStyles = (theme: Theme) =>
   StyleSheet.create({
     container: {
@@ -52,7 +53,7 @@ export const createStyles = (theme: Theme) =>
       marginTop: 10,
       flexDirection: 'row',
       alignItems: 'center',
-      backgroundColor: theme.colors.inputBackground,
+      //backgroundColor: theme.colors.inputBackground,
       borderColor: theme.colors.border,
       paddingHorizontal: 15,
     },

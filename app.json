@@ -13,7 +13,8 @@
           "backgroundColor": "#ffffff",
           "imageWidth": 200
         }
-      ]
+      ],
+      "expo-asset"
     ],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
